@@ -1,0 +1,29 @@
+body{
+  background-color: #ffb6c1 ;
+}
+
+form{
+  background-color:white;
+  padding:100px;
+  border-radius:20px;
+  width:75%;
+  margin:10%;
+  
+}
+h1{
+  text-align:center;
+ }
+
+input{
+  width:100%;
+}
+
+select{
+  height:30px;
+  width:100%;
+}
+label{
+  float:left;
+  font-size:20px;
+  margin: 10px 0 10px 0;
+}

@@ -1,0 +1,102 @@
+<link rel="stylesheet" href="surveycss.css">
+<!DOCTYPE html>
+
+
+<html>
+  <head>
+    <title>Survey Form</title>
+  </head>
+  
+  <h1>SURVEY FORM</h1>
+  <form id="survey_form">
+    <div>
+      <label id="name_label">NAME:
+      </label>
+      <input type="text" id="name"
+              required placeholder="FULL NAME">
+      </div>
+        <div>
+      <label id="Email-ID">EMAIL-ID:
+      </label>
+      <input type="email" id="EMAIL"
+             required placeholder="EMAIL-ID">
+    </div>
+
+    <div>
+      <label id="age" >ROLL-NO:</label>
+      <input type="number" min="1" max="100" required placeholder="ROLL-NO">
+    </div>
+    <div>
+      <label id="dropdown-label">PROFESSION</label>
+      <select id="dropdown">
+        <option>Employee</option>
+        <option>Student</option>
+        <option>Teachers</option>
+       </select>
+    </div>
+    <div>
+    
+      <label id="langauges"><strong>LANGUAGES</strong></label>
+    </div>
+  
+      <div>
+      <input type=radio value="1" name="lang"><label>JAVA</label>
+    </div>
+    <div>
+     <input type=radio value="2"   name="lang">  <label>Advance JAVA</label> 
+    </div>
+    <div>
+      <input type=radio value="3"   name="lang"><label>JavaScript</label>  
+    </div>
+    <div>
+      <input type=radio value="4"   name="lang">  
+      <label>Hibernate</label><br>
+	<br>
+    </div>
+  
+ 
+	<br>
+	<br>
+	<br>
+	<div>
+	<label id="Topics" ><strong>TOPICS TO COVER</strong><br></label>
+	</div>
+    <div>
+          <input type="checkbox" value="1"><label>Swing</label>
+     </div>
+ 
+     <div>
+    <input type="checkbox" value="2"><label>Servlet Programming</label>
+     </div>
+ 
+
+    <div>
+    <input type="checkbox" value="3">
+       <label>JSP</label>
+       </div>
+
+
+     <div>
+       <input type="checkbox" value="4">
+    <label>Spring</label>
+      </div>
+  
+
+<br>
+<br>
+<br>
+<div> 
+<label><strong>Suggestions:</strong><textarea></textarea></label>
+  </div>
+<br>
+<div>
+
+<br>
+<br>
+<br>
+  <button id="submit">Submit</button>
+       
+       </div> 
+    
+      </form>
+</html>
