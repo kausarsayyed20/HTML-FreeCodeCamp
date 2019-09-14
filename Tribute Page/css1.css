@@ -1,0 +1,50 @@
+<style>
+
+  a:hover
+   {
+    color: black;
+  }
+  a{
+    color: blue;
+}
+body{
+background: linear-gradient(45deg,black, rgb(128,128,128), #A9A9A9);
+}
+
+h1{
+color: black;
+text-align: center;
+}
+
+h4{
+color:black;
+text-align:center;
+  text-size:12dp;
+  text-font:Freestyle script;
+}
+
+.image1
+{
+  padding-top:50px;
+display:block;
+margin-left:auto;
+margin-right:auto;
+
+text-align:center;
+}
+
+p{
+text-align:justify;
+padding :200px;
+padding-top:50px;
+
+}
+
+div{
+text-color:Blue;
+}
+  
+</style>
+
+
+
